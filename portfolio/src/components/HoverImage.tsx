@@ -30,9 +30,9 @@ const HoverImage: React.FC = () => {
       />
 
       {/* Cool Bottom Border */}
-      <div
-        className={`absolute bottom-0 left-1/2 h-[4px] w-0 bg-blue-500 transition-all duration-500 ease-in-out rounded-lg group-hover:w-[80%] group-hover:opacity-100 opacity-0 transform -translate-x-1/2`}
-      ></div>
+      {/* <div
+        className={`absolute bottom-0 left-1/2 h-[4px] w-0 bg-blue-500 transition-all duration-500 ease-in-out rounded-lg group-hover:w-[80%] group-hover:opacity-100 opacity-0 transform -translate-x-1/2`} */}
+      {/* ></div> */}
     </div>
   );
 };
