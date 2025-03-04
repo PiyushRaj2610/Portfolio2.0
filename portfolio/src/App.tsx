@@ -19,7 +19,7 @@ function App() {
           <NavBar/>
         </div>
 
-        <div className="lg:h-[56vh] lg:w-[100%]">
+        <div className="lg:h-[56vh] lg:w-full">
          {/* Main data */}
           <MainData/>
         </div>

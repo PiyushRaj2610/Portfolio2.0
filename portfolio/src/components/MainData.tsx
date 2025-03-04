@@ -21,7 +21,7 @@ export const MainData: any = () => {
     className="lg:flex lg:w-full lg:justify-center sm:w-full sm:flex sm:justify-center">
           <div className="inline-block text-[#C6CBA9] pl-[3vw] lg:pt-[20vh] sm:pt-[40vh] flex-1 items-center justify-center font-semibold tracking-widest">
           
-          <div className="inline-block  text-[#C6CBA9] lg:pl-[8vh] lg:grid-1 lg:text-9xl sm:text-4xl sm:pl-[16vh] font-semibold tracking-wider">
+          <div className="inline-block  text-[#C6CBA9] lg:pl-[8vh] lg:grid-1 lg:text-9xl sm:text-4xl sm:pl-[20vh] font-semibold tracking-wider">
             <Typewriter 
             words={["FULLSTACK"]} 
             loop={1} 
@@ -32,7 +32,7 @@ export const MainData: any = () => {
 
           {/* all svgs */}
 
-            <div className=" lg:mt-4 lg:h-[6vh] lg:pl-[9vh] lg:w-[16vw] lg:pr-[3vh] lg:flex lg:justify-between sm:flex sm:justify-between sm:pl-[18vh] sm:pr-[12vh] sm:w-14vw] ">
+            <div className=" lg:mt-4 lg:h-[6vh] lg:pl-[9vh] lg:w-[16vw] lg:pr-[3vh] lg:flex lg:justify-between sm:flex sm:justify-between sm:pl-[19vh] sm:pr-[12vh] sm:w-14vw] ">
             <a href="https://github.com/PiyushRaj2610" target="_blank">
             <svg
             className="lg:h-11 sm:mb-2 w-[41px] sm:m-2 cursor-pointer"
@@ -63,7 +63,7 @@ export const MainData: any = () => {
             </div>
 
             <div className="  lg:relative lg:group lg:flex lg:justify-start sm:w-full sm:flex sm:justify-center lg:w-full lg:ml-[8vh]  ">
-              <span className="cursor-pointer sm:tracking-normal mt-2 tracking-wider flex text-[#2C2C2C] lg:text-5xl sm:text-3xl  sm:ml-[0vh] font-bold">
+              <span className="cursor-pointer sm:tracking-normal mt-2 tracking-wider flex text-[#2C2C2C] lg:text-5xl sm:text-xl lg:pl-0 sm:pl-[11vh] font-bold">
                 CONNECT WITH ME
               </span>
 
@@ -76,7 +76,7 @@ export const MainData: any = () => {
 
           <div
           ref={borderRef}
-          className=" lg:absolute sm:absolute  w-full flex justify-center left-1/2 top-[28vh] lg:pt-[30vh] sm:pt-[6vh] -translate-x-1/2 -translate-y-1/2 cursor-pointer  overflow-hidden  "
+          className=" lg:absolute sm:absolute  w-full flex justify-center left-1/2 top-[28vh] lg:pt-[30vh] sm:pt-[33vh] -translate-x-1/2 -translate-y-1/2 cursor-pointer  overflow-hidden  "
           >
             <div className="transition-transform duration-500 ease-in-out hover:scale-125">
               <HoverImage />
@@ -86,13 +86,13 @@ export const MainData: any = () => {
 
           
         <div className="text-right  sm:pt-[40vh] lg:pt-[20vh] lg:pr-[2vw]">
-          <h1 className="text-[#C6CBA9] lg:text-9xl sm:text-4xl ml-[4vh] font-semibold tracking-wider lg:pr-[12vh] sm:pr-[15vh]">
+          <h1 className="text-[#C6CBA9] lg:text-9xl sm:text-4xl lg:ml-[4vh] font-semibold tracking-wider lg:pr-[12vh] sm:pr-[24vh]">
             <Typewriter words={["DEVELOPER"]} loop={1} cursor cursorStyle="" typeSpeed={80} />
           </h1>
           <a
             href="https://www.google.com"
             target="_blank"
-            className="lg:pr-[13vh] sm:mr-[15vh] relative lg:text-4xl sm:text-[17px] mt-4 block font-semibold lg:tracking-wide sm:tracking-normal"
+            className="lg:pr-[13vh] sm:mr-[24vh] relative lg:text-4xl sm:text-[17px] mt-4 block font-semibold lg:tracking-wide sm:tracking-normal"
             // style={{ position: "absolute", bottom: "48vh", right: "2rem" }}
           >
             <span 

@@ -15,16 +15,16 @@ const HoverImage: React.FC = () => {
       <img
         src={initialImage}
         alt="Initial"
-        className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-700 ease-in-out ${
-          isHovered ? "opacity-0" : "opacity-100"
+        className={`absolute inset-0 w-full h-full object-cover transition-all duration-700 ease-in-out ${
+          isHovered ? "opacity-0 rotate-y-180 scale-90 blur-lg" : "opacity-100 rotate-y-0 scale-100 blur-0"
         }`}
       />
       {/* Final Image (Appears on Hover) */}
       <img
         src={finalImage}
         alt="Final"
-        className={`absolute inset-0 w-full pr-[1vw] h-full object-cover transition-opacity duration-700 ease-in-out ${
-          isHovered ? "opacity-100" : "opacity-0"
+        className={`absolute inset-0 w-full h-full object-cover transition-all duration-700 ease-in-out ${
+          isHovered ? "opacity-100 rotate-y-0 scale-100 blur-0" : "opacity-0 rotate-y-180 scale-110 blur-md"
         }`}
       />
     </div>

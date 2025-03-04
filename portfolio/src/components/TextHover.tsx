@@ -39,7 +39,7 @@ const TextHover: React.FC<TextProps> = ({ text }) => {
 
   
   return (
-    <div className="lg:text-[4vh] sm:text-[2vh] tracking-widest font-bold text-[#2C2C2C] flex flex-col justify-center items-center h-[5vh]">
+    <div className="lg:text-[4vh] sm:text-[15px] tracking-widest font-bold text-[#2C2C2C] flex flex-col justify-center items-center h-[5vh]">
       {/* This text animates on reload */}
       <div ref={animatedTextRef} className="mb- text-[#2C2C2C]"></div>
 
