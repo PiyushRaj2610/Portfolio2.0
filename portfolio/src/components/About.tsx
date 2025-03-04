@@ -1,4 +1,4 @@
-import pfp from "../assets/pfp.png"
+import pfp from "../assets/musicspidy.jpeg"
 
 
 const About: any = () => {

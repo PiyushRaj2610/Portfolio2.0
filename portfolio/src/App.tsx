@@ -14,7 +14,7 @@ function App() {
 
   return (
     <>
-      <div className="h-full w-screen bg-[#111111] md:grid-cols-3">
+      <div className="h-full max-w-[300vh] bg-[#111111] md:grid-cols-3">
       
 
         {/* navbar */}
