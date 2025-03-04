@@ -76,7 +76,7 @@ export const MainData: any = () => {
 
           <div
           ref={borderRef}
-          className=" lg:absolute sm:absolute  w-full flex justify-center left-1/2 top-[28vh] lg:pt-[30vh] sm:pt-[33vh] -translate-x-1/2 -translate-y-1/2 cursor-pointer  overflow-hidden  "
+          className=" lg:absolute sm:absolute  w-full flex justify-center left-1/2 top-[28vh] lg:pt-[30vh] sm:pt-[10vh] -translate-x-1/2 -translate-y-1/2 cursor-pointer  overflow-hidden  "
           >
             <div className="transition-transform duration-500 ease-in-out hover:scale-125">
               <HoverImage />

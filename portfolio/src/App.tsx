@@ -1,13 +1,16 @@
-
-import TextHover from "./components/TextHover";
-import { NavBar } from "./components/NavBar";
 import { MainData } from "./components/MainData";
-import { About } from "./components/About";
-import { SkillsSection } from "./components/SkillsSection";
+import NavBar from "./components/NavBar";
+import About from "./components/About";
+import SkillsSection from "./components/SkillsSection";
+import TextHover from "./components/TextHover";
+import { useRef } from "react";
 
 function App() {
+
  
-  
+  const homeRef = useRef<HTMLDivElement>(null);
+  const aboutRef = useRef<HTMLDivElement>(null);
+  const skillsRef = useRef<HTMLDivElement>(null);
 
   return (
     <>
@@ -15,34 +18,33 @@ function App() {
       
 
         {/* navbar */}
-        <div className="flex justify-center pt-10 ">
-          <NavBar/>
-        </div>
+        <div>
+      <div className="flex justify-center pt-10">
+        <NavBar homeRef={MainData} aboutRef={About} skillsRef={SkillsSection} />
+      </div>
 
-        <div className="lg:h-[56vh] lg:w-full">
-         {/* Main data */}
-          <MainData/>
-        </div>
+      {/* Home Section */}
+      <div ref={homeRef} className="lg:h-[56vh] lg:w-full">
+        <MainData />
+      </div>
 
-
-        <div className="lg:h-[32vh] flex justify-center items-start pt-8">
+      <div className="lg:h-[32vh] flex justify-center items-start pt-8">
         <div className="lg:h-[22vh] lg:pt-[12vh] lg:top-[8vh] lg:w-[65vw] leading-tight flex-col lg:text-[20px] sm:mr-4 text-[#2C2C2C] text-center font-semibold">
-            <TextHover text="YOUR FRIENDLY NEIGHBOURHOOD WEB DEVELOPER" />
-            HOVER ME
-          </div>
+          <TextHover text="YOUR FRIENDLY NEIGHBOURHOOD WEB DEVELOPER" />
+          HOVER ME
         </div>
+      </div>
 
+      {/* About Section */}
+      <div ref={aboutRef}>
+        <About />
+      </div>
 
-        {/* about section */}
-        <div>
-          <About/>
-        </div>
-
-
-        {/* skills section */}
-        <div>
-          <SkillsSection/>
-        </div>
+      {/* Skills Section */}
+      <div ref={skillsRef}>
+        <SkillsSection />
+      </div>
+    </div>
 
 
         {/* footer */}
