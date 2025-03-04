@@ -39,7 +39,7 @@ const AnimatedBoxes = () => {
               boxRefs.current.push(el);
             }
           }}
-          className="w-40 h-20 border-2 bg-gradient-to-b cursor-pointer  backdrop-blur-3xl bg-clip-border text-white text-[22px] tracking-wide font-bold flex justify-center items-center rounded-lg shadow-lg hover:scale-110 transition-transform duration-300 bg-"
+          className="w-40 h-20 border-2 bg-gradient-to-b cursor-pointer  backdrop-blur-xl bg-clip-border text-white text-[22px] tracking-wide font-bold flex justify-center items-center rounded-lg shadow-lg hover:scale-110 transition-transform duration-300 bg-"
         >
           {text}
         </div>

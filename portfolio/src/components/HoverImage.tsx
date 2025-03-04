@@ -7,7 +7,7 @@ const HoverImage: React.FC = () => {
 
   return (
     <div
-      className="relative w-[30vw] h-[60vh] overflow-hidden rounded-lg"
+      className="relative lg:w-[30vw] lg:h-[60vh] sm:w-[50vw] sm:h-[30vh] overflow-hidden rounded-lg"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
