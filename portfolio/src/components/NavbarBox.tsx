@@ -1,14 +1,13 @@
-
-interface Title {
-  title: string
+interface TitleProps {
+  title: string;
 }
 
-const NavbarBox = ({title}: Title) => {
+const NavbarBox: React.FC<TitleProps> = ({ title }) => {
   return (
     <div className="bg-transparent cursor-pointer flex h-[5vh] w-[12vh] justify-center items-center text-xl rounded-full pb-1 text-[#C6CBA9] hover:bg-[#1B1B1B] transition-transform duration-500">
       {title}
-    </div >
-  )
-}
+    </div>
+  );
+};
 
-export default NavbarBox
+export default NavbarBox;

@@ -1,9 +1,4 @@
-import { useEffect, useRef } from "react";
-import HoverImage from "./components/HoverImage"
-import NavbarBox from "./components/NavbarBox"
-import { Typewriter } from "react-simple-typewriter";
-import gsap from "gsap";
-import AnimatedBoxes from "./components/AnimatedBoxes";
+
 import TextHover from "./components/TextHover";
 import { NavBar } from "./components/NavBar";
 import { MainData } from "./components/MainData";
@@ -11,13 +6,12 @@ import { About } from "./components/About";
 import { SkillsSection } from "./components/SkillsSection";
 
 function App() {
-
-    
+ 
   
 
   return (
     <>
-      <div className="h-[310vh] w-full bg-[#111111] md:grid-cols-3">
+      <div className="h-full w-screen bg-[#111111] md:grid-cols-3">
       
 
         {/* navbar */}
@@ -25,14 +19,14 @@ function App() {
           <NavBar/>
         </div>
 
-        <div className="lg:h-[56vh] ">
+        <div className="lg:h-[56vh] lg:w-[100%]">
          {/* Main data */}
           <MainData/>
         </div>
 
 
-        <div className="h-[32vh] flex justify-center items-start pt-8">
-        <div className="h-[22vh] pt-[12vh] top-[8vh] w-[65vw] leading-tight flex-col text-[20px] text-[#2C2C2C] text-center font-semibold">
+        <div className="lg:h-[32vh] flex justify-center items-start pt-8">
+        <div className="lg:h-[22vh] lg:pt-[12vh] lg:top-[8vh] lg:w-[65vw] leading-tight flex-col lg:text-[20px] sm:mr-4 text-[#2C2C2C] text-center font-semibold">
             <TextHover text="YOUR FRIENDLY NEIGHBOURHOOD WEB DEVELOPER" />
             HOVER ME
           </div>
