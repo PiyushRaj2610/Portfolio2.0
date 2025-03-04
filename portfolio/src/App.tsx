@@ -24,7 +24,6 @@ function App() {
     <>
       <div className="h-[500vh] bg-[#111111]">
       
-      {/* <img src={} className="absolute top-0 left-0 w-[100vw] h-[100vh] object-cover opacity-30" alt="" /> */}
 
         {/* navbar */}
         <div className="flex justify-center pt-10">
