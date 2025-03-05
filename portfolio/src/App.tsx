@@ -20,8 +20,6 @@ function App() {
       <Cursor/>
       <div className="h-full max-w-[300vh] bg-[#111111] md:grid-cols-3 ">
 
-      
-
         {/* navbar */}
         <div>
       <div className="flex justify-center pt-10 relative z-[9999999]">
@@ -33,6 +31,8 @@ function App() {
         <MainData />
       </div>
 
+
+      {/* Hover Text Section */}
       <div className="lg:h-[32vh] flex justify-center items-start pt-8">
         <div className="lg:h-[22vh] lg:pt-[12vh] lg:top-[8vh] lg:w-[65vw] leading-tight flex-col lg:text-[20px] sm:mr-4 text-[#2C2C2C] text-center font-semibold">
           <TextHover text="YOUR FRIENDLY NEIGHBOURHOOD WEB DEVELOPER" />
