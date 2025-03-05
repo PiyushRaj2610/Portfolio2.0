@@ -4,6 +4,9 @@ import About from "./components/About";
 import SkillsSection from "./components/SkillsSection";
 import TextHover from "./components/TextHover";
 import { useRef } from "react";
+import Cursor from "./components/Cursor";
+
+
 
 function App() {
 
@@ -14,12 +17,14 @@ function App() {
 
   return (
     <>
-      <div className="h-full max-w-[300vh] bg-[#111111] md:grid-cols-3">
+      <Cursor/>
+      <div className="h-full max-w-[300vh] bg-[#111111] md:grid-cols-3 ">
+
       
 
         {/* navbar */}
         <div>
-      <div className="flex justify-center pt-10">
+      <div className="flex justify-center pt-10 relative z-[9999999]">
         <NavBar homeRef={MainData} aboutRef={About} skillsRef={SkillsSection} />
       </div>
 
